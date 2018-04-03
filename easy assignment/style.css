@@ -1,0 +1,125 @@
+  /* p {
+    Background-color:Grey;
+  } */
+
+
+  *{ 
+  box-sizing: border-box;
+  text-align:center;
+}
+  BODY {
+    background:#777;
+  }
+
+  HEADER {
+    color:grey;
+    background:#ccc;
+    width:85%; 
+    font-size: 18px;
+    padding: 18px;
+    margin: 18px auto;
+  } 
+  SECTION {
+    color:grey;
+    /* background: #ccc; */
+    padding: 18px 0px 1px 0px;
+    /* border:18px; */
+    margin:18px;
+  }
+  #FOOTER {
+    color:grey;
+    background:#ccc;
+    padding: 18px;
+    margin: 18px;
+    width: 85%;
+    table-layout: bottom;
+  } 
+
+  #NAV {
+    background: #ccc;
+    padding: 18px;
+    border:18px;
+    margin:0 auto;
+    width:85%;
+  }
+#BLOCK{
+      width:85%;
+       Margin:18px auto; 
+      position: relative;
+      /* display:table; */
+      background-color: #ccc;
+    }
+  
+    #ASIDE {background: #ccc;
+    padding: 18px;
+    border:10px;
+    width:40%;
+    float:right;
+    position: absolute;
+    right: 0px;
+
+    /* margin-top:.1px;
+    margin-right: 23px;
+    margin-bottom:.1px;
+    margin-left: 18px; */
+    /*
+    font-family: 'Amatic SC', cursive;
+    font-size:20;
+     font-family: 'Shrikhand', cursive; */
+  }
+ 
+  #SECTION {
+    width:40%;
+    /* line-height: 0px    */
+  }
+  
+  SECTION.nested_div {
+    border-color: black;
+    margin: 0px;
+    padding:10px;
+    background-color: #ccc;
+   }
+
+   SECTION.nested_div2 {
+    border-color: black;
+    margin: 0px;
+    padding:10px;
+    background-color: #ccc;
+    margin-top: 10px;
+
+
+   }
+
+   #move{
+     margin-top: 10%;
+   }
+
+   FOOTER {
+     color:grey;
+     width:85%;
+     background:#ccc;
+     padding: 18px;
+     margin:18px auto;
+
+    }
+    /* i need to make space between article and secion */
+    #Article{
+      color:white;
+      background: #777;
+      margin:0 auto;
+      padding:10px 10px;
+      height:180px;
+      
+    }
+
+    
+    /* .container 
+    {width:1024px
+    margin:0 auto}
+
+    .clearfix::after {
+      content:"";
+      display:block;
+      clear:both;
+    } 
+  </style> */
